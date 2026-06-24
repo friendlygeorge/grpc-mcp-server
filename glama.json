@@ -1,0 +1,7 @@
+{
+  "name": "grpc-mcp-server",
+  "description": "MCP server for gRPC — service discovery via server reflection, method invocation, type schema inspection for AI agents",
+  "version": "0.1.0",
+  "keywords": ["mcp", "grpc", "server-reflection", "service-discovery", "ai-agent"],
+  "repository": "https://github.com/friendlygeorge/grpc-mcp-server"
+}

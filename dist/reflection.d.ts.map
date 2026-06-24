@@ -1,0 +1,1 @@
+{"version":3,"file":"reflection.d.ts","sourceRoot":"","sources":["../src/reflection.ts"],"names":[],"mappings":"AAAA;;;;;GAKG;AAEH,OAAO,KAAK,IAAI,MAAM,eAAe,CAAC;AAGtC,OAAO,KAAK,EAAE,WAAW,EAAc,MAAM,cAAc,CAAC;AAwB5D;;GAEG;AACH,wBAAsB,eAAe,CACnC,OAAO,EAAE,IAAI,CAAC,OAAO,EACrB,SAAS,GAAE,MAAc,GACxB,OAAO,CAAC,GAAG,CAAC,MAAM,EAAE,WAAW,CAAC,CAAC,CAsCnC"}
