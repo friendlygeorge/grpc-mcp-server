@@ -22,8 +22,8 @@ export function registerInvokeTools(
         .describe("Full service name (e.g. grpc.health.v1.Health)"),
       method_name: z.string().describe("Method name (e.g. Check)"),
       request: z
-        .any()
-        .describe("JSON-serialized request body as an object"),
+        .record(z.unknown())
+        .describe("JSON-serialized request body as a key-value object matching the method's input schema"),
       timeout_ms: z
         .number()
         .optional()

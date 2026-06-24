@@ -1,8 +1,8 @@
 {
   "name": "@supernova123/grpc-mcp-server",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "mcpName": "io.github.friendlygeorge/grpc-mcp-server",
-  "description": "MCP server for gRPC \u2014 service discovery via server reflection, method invocation, type schema inspection for Claude, Cursor, and AI agents",
+  "description": "MCP server for gRPC — service discovery via server reflection, method invocation, type schema inspection for Claude, Cursor, and AI agents",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
