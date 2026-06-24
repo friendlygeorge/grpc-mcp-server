@@ -11,7 +11,7 @@ gRPC powers Kubernetes, Istio, Envoy, and thousands of microservices — but AI 
 **Use cases:**
 - Debug microservices by invoking RPCs directly from Claude
 - Inspect live service meshes (Istio, Envoy) without kubectl
-- Build AI-powered运维 tools that query gRPC health endpoints
+- Build AI-powered ops tools that query gRPC health endpoints
 - Prototype API integrations without writing client code
 - Test gRPC services during development with natural language
 
