@@ -3,6 +3,7 @@
  *
  * List all discovered gRPC services on the connected endpoint.
  */
+import { z } from "zod";
 export function registerDiscoveryTools(server, ctx) {
     server.tool("list_services", "List all gRPC services discovered via server reflection on the connected endpoint", {}, async () => {
         if (!ctx.isConfigured()) {
@@ -76,6 +77,4 @@ export function registerDiscoveryTools(server, ctx) {
         };
     });
 }
-// Need z for list_methods parameter
-import { z } from "zod";
 //# sourceMappingURL=discovery.js.map

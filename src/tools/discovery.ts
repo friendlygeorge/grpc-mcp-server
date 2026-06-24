@@ -5,6 +5,7 @@
  */
 
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
+import { z } from "zod";
 import type { ServerContext } from "../context.js";
 
 export function registerDiscoveryTools(
@@ -107,5 +108,3 @@ export function registerDiscoveryTools(
   );
 }
 
-// Need z for list_methods parameter
-import { z } from "zod";
